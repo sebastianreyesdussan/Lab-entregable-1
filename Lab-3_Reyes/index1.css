@@ -1,0 +1,157 @@
+body {
+
+    background-image: url(website-wallpaper.avif);
+    background-color: darkgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.card {
+
+    background-color: white;
+    height: 650px;
+    width: 1200px;
+    display: flex;
+    -webkit-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    -moz-box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+    box-shadow: 4px 6px 26px -12px rgba(0,0,0,0.76);
+
+}
+
+
+h1, h2, p, a{
+
+    font-family: "Roboto", sans-serif;
+
+}
+
+h1{
+
+    margin-left: 40px;
+    text-align: center;
+    padding-right: 45px;
+    margin-bottom: 10px;
+    
+
+}
+
+h2 {
+
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    
+
+}
+
+.text{
+
+    margin-left: 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    font-size: 17px;
+    
+    
+}
+
+img {
+    
+    width: 850px;
+    height: 650px;
+
+   
+}
+
+.input-area {
+
+    display: flex;
+    position: relative;
+    width: 300px; 
+    height: 50px; 
+    border: 2px solid black;
+    padding: 5px; 
+    box-sizing: border-box;
+    margin-left: 26px;
+    margin-bottom: 15px;
+
+
+}
+
+#plant-profile {
+
+    width: 140px;
+    height: 140px;
+    margin-left: 105px;
+    
+
+}
+
+button {
+
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 5px ;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+
+
+}
+
+a{
+
+    margin-left: 25px;
+
+}
+
+.card-text {    
+
+    width: 350px;
+    height: 650px;
+
+
+}
+
+.front-images{
+
+display: flex;
+
+}
+
+.front-image {
+
+    width: 200px;
+    height: 200px;
+    position:absolute;
+
+}
+
+#front-plant {
+
+    left: 300px;
+    bottom: -45px;
+
+}
+
+#watering-can {
+
+   left: 90px;
+   bottom: -70px;
+   transform: rotate(30deg);
+}
+
+
+
